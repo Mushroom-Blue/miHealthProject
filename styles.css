@@ -37,3 +37,115 @@ body {
     font-size: 20px;
     font-family: 'Work Sans', sans-serif;
 }
+
+.container {
+    /* border: dashed 1px black; */
+    background-image: url(./imgs/light_grey.png);
+    background-repeat: repeat;
+    box-sizing: border-box;
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textContainer {
+    width: 30%;
+    margin-bottom: 25px;
+}
+
+.beHealth {
+    margin-left: 100px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 0.8;
+    margin-bottom: 30px;
+}
+
+.aboutUs {
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 100px;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.menuBrowse {
+    margin-left: 100px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    height: 25px;
+}
+
+
+.imgContainer {
+    display: flex;
+    width: 64%;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.imgOneContainer {
+    height: 410px;
+    width: 280px;
+    object-fit: contain;
+    background-image: url(./imgs/apple-breakfast-quinoa-7.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.imgTwoContainer {
+    height: 410px;
+    width: 280px;
+    object-fit: contain;
+    background-image: url(./imgs/pasta-salad-recipe-for-lunch.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.imgThreeContainer {
+    height: 410px;
+    width: 280px;
+    object-fit: contain;
+    background-image: url(./imgs/Screenshot_208.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.whiteBox {
+    background-color: white;
+    padding: 10px 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.greenBox {
+    background-color: #9AC548;
+    width: 50%;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    /* padding-right: 15px; */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
